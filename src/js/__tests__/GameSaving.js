@@ -23,8 +23,6 @@ describe('Проверка создания объекта', () => {
         points: 2 // user points
       }
     };
-
-   // console.log(obj);
   
     expect(obj).toEqual(expObj);
   })
